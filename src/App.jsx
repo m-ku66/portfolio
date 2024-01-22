@@ -14,7 +14,7 @@ import Contact from './components/Contact'
 function App() {
   AOS.init();
 
-  const [siteState, setSiteState] = useState("loading");
+  const [siteState, setSiteState] = useState("home");
   const [scrollState, setScrollState] = useState(false);
   const [containerState, setContainerState] = useState('load');
 
