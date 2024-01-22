@@ -14,7 +14,7 @@ import Contact from './components/Contact'
 function App() {
   AOS.init();
 
-  const [siteState, setSiteState] = useState("");
+  const [siteState, setSiteState] = useState("loading");
   const [scrollState, setScrollState] = useState(false);
   const [containerState, setContainerState] = useState('load');
 
@@ -27,13 +27,13 @@ function App() {
     page = document.getElementsByTagName('body');
     page[0].style.overflowY = scrollState ? "scroll" : "hidden";
 
-    setSiteState("loading");
+    // setSiteState("loading");
 
     window.addEventListener('load', () => {
       setTimeout(() => {
         setSiteState("home");
         setContainerState("normal");
-      }, 5000);
+      }, 4000);
     });
   }, []);
 
