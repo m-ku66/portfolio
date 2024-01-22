@@ -91,7 +91,7 @@ const About = () => {
                     <p className='text-center inter text-stone-400 text-[0.7rem]'>{sourceTxt.pageContent}</p>
                 </div>
                 {/* // */}
-                <a className='w-fit h-fit mt-[8%] mb-[8%]' href={languageState === 'en' ? 'link to english resume' : 'link to jp resume'} target='_blank'>
+                <a className='w-fit h-fit mt-[8%] mb-[8%]' href={languageState === 'en' ? '/Resume_EN.pdf' : '/Resume_JP.pdf'} target='_blank'>
                     <div className="fade1 relative select-none cursor-pointer button w-fit h-fit outline outline-1 p-[0.3rem] pr-[3rem]">
                         <p className="inter text-[0.8rem]">{sourceTxt.btnTxt}</p>
                         <img
