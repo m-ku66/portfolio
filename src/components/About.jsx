@@ -42,7 +42,7 @@ const About = () => {
                         <p className='inter text-stone-400 text-[1rem]'>{sourceTxt.pageContent}</p>
                     </div>
                     {/* // */}
-                    <a className='w-fit h-fit mb-[8%]' href={languageState === 'en' ? 'link to english resume' : 'link to jp resume'} target='_blank'>
+                    <a className='w-fit h-fit mb-[8%]' href={languageState === 'en' ? '/Resume_EN.pdf' : '/Resume_JP.pdf'} target='_blank'>
                         <div data-aos='fade-up' data-aos-duration='1000' className="fade1 relative select-none cursor-pointer button w-fit h-fit outline outline-1 p-[0.5rem] pr-[3rem]">
                             <p className="inter">{sourceTxt.btnTxt}</p>
                             <img
