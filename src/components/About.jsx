@@ -54,13 +54,13 @@ const About = () => {
                     </a>
                     {/* // */}
                     <div data-aos='fade-up' data-aos-duration='2000' className='fade2 flex mb-[5%]'>
-                        <a href=""><p className='duration-500 select-none inter text-stone-400 text-[0.8rem] hover:text-orange-500'>{sourceTxt.sns[0]}</p></a>
+                        <a href="https://www.instagram.com/m_ku66/?hl=en" target='_blank'><p className='duration-500 select-none inter text-stone-400 text-[0.8rem] hover:text-orange-500'>{sourceTxt.sns[0]}</p></a>
                         <p className='select-none inter text-stone-400 text-[0.8rem] mx-[2%]'>|</p>
-                        <a href=""><p className='duration-500 select-none inter text-stone-400 text-[0.8rem] hover:text-black'>{sourceTxt.sns[1]}</p></a>
+                        <a href="https://twitter.com/AnimsMaku" target='_blank'><p className='duration-500 select-none inter text-stone-400 text-[0.8rem] hover:text-black'>{sourceTxt.sns[1]}</p></a>
                         <p className='select-none inter text-stone-400 text-[0.8rem] mx-[2%]'>|</p>
-                        <a href=""><p className='duration-500 select-none inter text-stone-400 text-[0.8rem] hover:text-blue-500'>{sourceTxt.sns[2]}</p></a>
+                        <a href="https://www.linkedin.com/in/johan-marc-miango-562a63220/" target='_blank'><p className='duration-500 select-none inter text-stone-400 text-[0.8rem] hover:text-blue-500'>{sourceTxt.sns[2]}</p></a>
                         <p className='select-none inter text-stone-400 text-[0.8rem] mx-[2%]'>|</p>
-                        <a href=""><p className='duration-500 select-none inter text-stone-400 text-[0.8rem] hover:text-red-500'>{sourceTxt.sns[3]}</p></a>
+                        <a href="https://www.youtube.com/channel/UCTmSnlQsbMsnZhg3TwanjkQ" target='_blank'><p className='duration-500 select-none inter text-stone-400 text-[0.8rem] hover:text-red-500'>{sourceTxt.sns[3]}</p></a>
                     </div>
                     {/* // */}
                     <div data-aos='fade-up' data-aos-duration='3000' onClick={() => languageChange()} className='w-fit h-fit bg-transparent'>
