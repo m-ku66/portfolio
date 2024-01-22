@@ -82,7 +82,8 @@ export default App
 /**
  * TO DOS
  * Optional: try to implement img preloading
- * Optimize file sizes and figure out any github errors
- * Upload to github pages
- * Stress test
+ * To update:
+ * git add .
+ * git commit -m "msg"
+ * git push
  */
