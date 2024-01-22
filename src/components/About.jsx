@@ -107,7 +107,7 @@ const About = () => {
                     <p className='select-none inter text-stone-400 text-[0.8rem] mx-[2%]'>|</p>
                     <a href="https://twitter.com/AnimsMaku" target='_blank'><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-black' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-black'}>{sourceTxt.sns[1]}</p></a>
                     <p className='select-none inter text-stone-400 text-[0.8rem] mx-[2%]'>|</p>
-                    <a href="https://www.linkedin.com/in/johan-marc-miango-562a63220/"><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-blue-500' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-blue-500'}>{sourceTxt.sns[2]}</p></a>
+                    <a href="https://www.linkedin.com/in/johan-marc-miango-562a63220/" target='_blank'><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-blue-500' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-blue-500'}>{sourceTxt.sns[2]}</p></a>
                     <p className='select-none inter text-stone-400 text-[0.8rem] mx-[2%]'>|</p>
                     <a href="https://www.youtube.com/channel/UCTmSnlQsbMsnZhg3TwanjkQ" target='_blank'><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-red-500' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-red-500'}>{sourceTxt.sns[3]}</p></a>
                 </div>
