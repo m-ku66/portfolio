@@ -103,13 +103,13 @@ const About = () => {
                 </a>
                 {/* // */}
                 <div className='fade2 flex items-center justify-center mb-[3%] w-full'>
-                    <a href=""><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-orange-500' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-orange-500'}>{sourceTxt.sns[0]}</p></a>
+                    <a href="https://www.instagram.com/m_ku66/?hl=en" target='_blank'><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-orange-500' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-orange-500'}>{sourceTxt.sns[0]}</p></a>
                     <p className='select-none inter text-stone-400 text-[0.8rem] mx-[2%]'>|</p>
-                    <a href=""><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-black' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-black'}>{sourceTxt.sns[1]}</p></a>
+                    <a href="https://twitter.com/AnimsMaku" target='_blank'><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-black' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-black'}>{sourceTxt.sns[1]}</p></a>
                     <p className='select-none inter text-stone-400 text-[0.8rem] mx-[2%]'>|</p>
-                    <a href=""><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-blue-500' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-blue-500'}>{sourceTxt.sns[2]}</p></a>
+                    <a href="https://www.linkedin.com/in/johan-marc-miango-562a63220/"><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-blue-500' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-blue-500'}>{sourceTxt.sns[2]}</p></a>
                     <p className='select-none inter text-stone-400 text-[0.8rem] mx-[2%]'>|</p>
-                    <a href=""><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-red-500' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-red-500'}>{sourceTxt.sns[3]}</p></a>
+                    <a href="https://www.youtube.com/channel/UCTmSnlQsbMsnZhg3TwanjkQ" target='_blank'><p className={languageState === 'en' ? 'duration-500 select-none inter text-stone-400 text-[0.7rem] hover:text-red-500' : 'duration-500 select-none inter text-stone-400 text-[0.6rem] hover:text-red-500'}>{sourceTxt.sns[3]}</p></a>
                 </div>
                 {/* // */}
                 <div onClick={() => languageChange()} className='absolute top-[2%] right-[2%] w-fit h-fit bg-transparent'>
