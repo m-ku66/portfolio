@@ -31,12 +31,16 @@ function App() {
 
     //hunch: maybe get rid of the event listener and just do the 
     //setTimeout by itself...
-    window.addEventListener('load', () => {
-      setTimeout(() => {
-        setSiteState("home");
-        setContainerState("normal");
-      }, 4000);
-    });
+    // window.addEventListener('load', () => {
+    //   setTimeout(() => {
+    //     setSiteState("home");
+    //     setContainerState("normal");
+    //   }, 4000);
+    // });
+    setTimeout(() => {
+      setSiteState("home");
+      setContainerState("normal");
+    }, 4000);
   }, []);
 
   const renderContent = (currentState) => {
