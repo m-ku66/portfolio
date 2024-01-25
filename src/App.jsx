@@ -29,6 +29,8 @@ function App() {
 
     // setSiteState("loading");
 
+    //hunch: maybe get rid of the event listener and just do the 
+    //setTimeout by itself...
     window.addEventListener('load', () => {
       setTimeout(() => {
         setSiteState("home");
