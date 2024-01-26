@@ -46,7 +46,7 @@ const HomeGal = () => {
     }
   }, []);
 
-  const [sourceImg, setSourceImg] = useState(img1);
+  const [sourceImg, setSourceImg] = useState();
 
   return (
     <div className="relative flex justify-center w-full h-full bg-transparent">

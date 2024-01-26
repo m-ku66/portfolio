@@ -79,7 +79,7 @@ const About = () => {
 
         {/* mobile view */}
         <div className='phone:flex tablet:hidden relative w-full h-full bg-transparent px-[5%] pt-[8%]'>
-            <div className='flex flex-col items-center w-full h-[99%] bg-transparent'>
+            <div className='flex flex-col items-center w-full h-[90%] bg-transparent'>
                 <div className='flex justify-center items-center w-full h-[50%] bg-transparent mb-[0%]'>
                     <div data-aos='fade-up' data-aos-duration='2000' className='w-[70%] h-[70%]'>
                         <img className='select-none drop-shadow-[5px_5px_2px_rgba(0,0,0,0.2)]' src="/images/persona.png" alt="" />
