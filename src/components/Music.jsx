@@ -93,7 +93,7 @@ const Music = () => {
     }
 
     return (
-        <div className='flex flex-col w-full h-full phone:pt-[30%] tablet:pl-[5.5%] tablet:pt-[10%] medium:pt-[7%] medium:pl-[3.2%] bg-transparent phone:overflow-y-scroll'>
+        <div className='flex flex-col w-full h-full phone:pt-[30%] tablet:pl-[5.5%] tablet:pt-[10%] medium:pt-[7%] medium:pl-[3.2%] bg-transparent phone:overflow-y-scroll tablet:overflow-y-hidden'>
             <div className='fade phone:ml-[4%] phone:mb-[10%] tablet:ml-[0%] tablet:mb-[3%] flex w-[40%] h-fit bg-transparent'>
                 <h1 onClick={() => handleSelect('jrock')} className={!selected1 ? filterTextStyle1 : filterTextStyle2}>JROCK</h1>
                 <p className='select-none text-stone-400 mx-[5%]'>|</p>
