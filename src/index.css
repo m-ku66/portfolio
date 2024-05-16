@@ -111,6 +111,12 @@
     animation-duration: 5s;
 }
 
+.dissolveMessage {
+    animation-name: fadeOut;
+    animation-delay: 10s;
+    animation-duration: 3s;
+}
+
 .img {
     animation-name: fadeIn;
     animation-duration: 0.5s;
